@@ -1,0 +1,38 @@
+name: pyrosetta_env
+channels:
+  - https://levinthal:paradox@conda.graylab.jhu.edu
+  - schrodinger
+  - defaults
+  - conda-forge
+  - ambermd
+  - omnia
+dependencies:
+  - pip
+  - python=3.7
+  - ipython
+  - pytest=3.8.*
+  - pytest-cov
+  - flake8
+  - pyrosetta
+  - pymol
+  - matplotlib
+  - biopython
+  - seaborn
+  - openbabel
+  - ambertools
+  - dask
+  - distributed
+  - virtualenv
+  - dask-jobqueue
+  - pymol
+  - python-graphviz
+  - ipyparallel
+  - rdkit
+  - glob2
+  - ipykernel<5.0.0
+  - pip:
+    - jupyter
+    - black==18.6b4
+    - flake8-bugbear
+    - py3Dmol
+    - prompt-toolkit==1.0.15
